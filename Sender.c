@@ -14,7 +14,7 @@ receiver(struct simple_udp_connection *c,
   uip_debug_ipaddr_print(sender_addr);
   printf("' on port %d with length : %d\n",
          receiver_port, datalen);
-  printf("Temprature (°C) : %s",data);
+  printf("Temprature (Â°C) : %s",data);
   */
   printf("%s",data);
 }
